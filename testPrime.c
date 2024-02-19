@@ -24,7 +24,6 @@ void main()
 	{
 		
 		int result = isPrimeNumber(testCases[counter]);
-		// printf("%d\n", result);
 		if(!(result == expectedResult[counter]))
 		{
 			isAllTestCasesPassed = 0;
